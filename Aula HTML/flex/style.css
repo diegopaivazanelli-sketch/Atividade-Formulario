@@ -1,0 +1,24 @@
+.container { 
+    background-color: cadetblue;
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    /* justify content altera os elementos na horizontal, porém
+    se eu alterar o flex direction para column ou column reverse 
+    ele alterara os elementos na vertical */
+
+    flex-direction: column;
+    /* justify-content: space-between; */
+    justify-content: end;
+    align-items: flex-start;
+
+    
+}
+
+.box {
+    background-color: darkorange;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+
+}
